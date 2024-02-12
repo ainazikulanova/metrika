@@ -1,0 +1,74 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1400x;
+    padding: 125px;
+    
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.first-foto {
+    position: relative;
+    margin-top: 30px;
+    height: 630px;
+    width: 1150px;
+    background-image: url("../Metrika/img/first.png");
+    background-size: contain;
+     background-repeat: no-repeat;
+     margin-bottom: 150px;
+    
+}
+
+.first-text {
+    position: absolute;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    width: 450px;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    padding-top: 479px;
+} 
+h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+p.about{
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: 400;
+    height: 366px;
+    width: 1200px;
+    margin-bottom: 30px;
+    letter-spacing: -3%;
+}
+
+a{
+    display: block;
+    border: 1px solid #AD1818;
+    width: 255px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    color: white;
+    background-color: #AD1818;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
