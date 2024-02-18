@@ -23,6 +23,7 @@ body{
 .nav{
     display: inline-block;
     cursor: pointer;
+    list-style-type: none;
 }
 
 .nav-link{
