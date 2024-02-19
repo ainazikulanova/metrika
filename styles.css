@@ -1,5 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Manrope', sans-serif;
+    letter-spacing: -3%;
 }
 
 .nav-container{
@@ -40,7 +45,7 @@ body{
     text-decoration: none;
 }
 
-li:nth-child(4){
+.nav-link:nth-child(4){
     margin-right: 0;
 }
 
@@ -288,8 +293,9 @@ a.look{
     line-height: 60px;
     font-weight: 400;
     height: 60px;
-    box-sizing: border-box;
     text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+    display: inline-block;
 }
 
 .footer{
@@ -311,11 +317,17 @@ a.look{
     margin-right: 55px;
     margin-top: 70px;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }
 
 .nav_:nth-last-child(1){
     margin-right: 0px;
     margin-bottom: 70px;
+}
+
+.nav_:hover{
+    color: gray;
 }
 
 .metrika{
