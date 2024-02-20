@@ -283,7 +283,7 @@ a.look{
     font-weight: 400;
     height: 60px;
     box-sizing: border-box;
-    padding-bottom: 30px;
+    padding-bottom: -10px;
     text-decoration: none;
 }
 
@@ -296,6 +296,7 @@ a.look{
     text-decoration: none;
     border-bottom: 2px solid gray;
     display: inline-block;
+    margin-bottom: 150px;
 }
 
 .footer{
