@@ -7,16 +7,15 @@ body{
     letter-spacing: -3%;
 }
 
-.nav-container{
+.nav_section{
     margin: 0 auto;
-    width: 1150px;
     height: 25px;
     padding-top: 33px;
 }
 
 .logo-link{
     display: inline-block;
-    margin-right: 423px;
+    margin-right: 458px;
 }
 
 .logo{
@@ -60,7 +59,6 @@ body{
     box-sizing: border-box;
     width: 1400px;
     padding-left: 125px;
-    padding-top: 70px;
     align-content: center;
     
 }
@@ -126,7 +124,7 @@ a.look{
     background-color: #AD1818;
     border-radius: 5px;
     font-size: 20px;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .title{
@@ -283,8 +281,8 @@ a.look{
     font-weight: 400;
     height: 60px;
     box-sizing: border-box;
-    padding-bottom: -10px;
     text-decoration: none;
+    margin-bottom: -10px;
 }
 
 .email{
@@ -298,6 +296,14 @@ a.look{
     display: inline-block;
     margin-bottom: 150px;
 }
+
+.email:hover,
+.number:hover{
+    color: grey;
+    font-size: 62px;
+
+}
+
 
 .footer{
     width: 100%;
