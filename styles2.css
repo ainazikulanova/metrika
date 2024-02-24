@@ -1,0 +1,128 @@
+@media (max-width: 1199px) {
+    .container{
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 15px;
+        background-color: green;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .first-foto{
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .first-text{
+        font-size: 20px;
+        line-height: 27px;
+        padding-top: 259px;
+        margin-bottom: 120px;
+    }
+
+    p.about{
+        font-size: 35px;
+        line-height: 48px;
+        width: 690px;
+        height: 336px;
+        margin-bottom: 80px;
+    }
+    .project_1,
+    .project_2,
+    .project_3{
+        height: 450px;
+        width: 100%;
+        background-position: center;
+        box-sizing: border-box;
+     }
+
+     .project_name{
+        font-size: 25px;
+        line-height:  34px;
+        margin-bottom: 10px;
+    }
+
+     .block{
+        margin-bottom: 80px;
+    }
+
+    .btn_full{
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container{
+        padding-left: 13px;
+        padding-right: 12px;
+        background-color: orange;
+    }
+
+    h1{
+        font-size: 31px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    h2{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    .first-foto{
+        width: 100%;
+        height: 350px;
+        background-image: url(./img/first-foto1.png);
+    }
+
+    .first-text{
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 235px;
+        width: 312px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 80px;
+    }
+
+    p.about{
+        font-size: 22px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    a.look{
+        width: 194px;
+        height: 51px;
+        line-height: 51px;
+        font-size: 16px;
+    }
+
+    .project_name{
+        font-size: 17px;
+        line-height:  25px;
+        margin-bottom: 11px;
+    }
+
+    .block{
+        margin-bottom: 49px;
+    }
+
+    .btn_full{
+        width: 100%;
+        height: 100px;
+        font-size: 22px;
+        line-height: 100px;
+    }
+
+    .title{
+        Size: 14px;
+        line-height: 19px;
+    }
+}
