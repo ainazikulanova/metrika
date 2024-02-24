@@ -1,3 +1,5 @@
+@import "./styles2.css";
+
 html{
     scroll-behavior: smooth;
 }
@@ -57,10 +59,7 @@ body{
 .container {
     margin: 0 auto;
     box-sizing: border-box;
-    width: 1400px;
     padding-left: 125px;
-    align-content: center;
-    
 }
 
 h1{
@@ -69,15 +68,12 @@ h1{
     line-height: 60px;
     font-weight: 400;
     margin-bottom: 30px;
-    height: 120px;
-    width: 1000px;
 }
 
 .first-foto {
     position: relative;
     margin-top: 30px;
     height: 500px;
-    width: 1150px;
     background-image: url("./img/first.png");
     background-size: contain;
      background-repeat: no-repeat;
@@ -125,6 +121,7 @@ a.look{
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+
 }
 
 .title{
@@ -135,7 +132,6 @@ a.look{
 }
 
 .project_1{
-   width: 1150x;
    height: 450px;
    margin-bottom: 15px;
 }
@@ -150,7 +146,7 @@ a.look{
 
 .project_arrow{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20px;  
     line-height:  28px;
     font-weight:400;
     color:#AD1818;
@@ -159,11 +155,6 @@ a.look{
 
 .projects{
     list-style-type: none;
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 1400px;
-    padding: 125px;
-    align-content: center;
 }
 
 .block{
@@ -175,6 +166,7 @@ a.look{
     border: 1px solid #AD1818;
     width: 100%;
     height: 153px;
+    border-radius: 5px;
 
     text-align: center;
     text-decoration: none;
@@ -183,6 +175,7 @@ a.look{
     font-weight:400;
     font-size: 30px;
     line-height: 153px;
+    width: 1150px;
 }
 
 .btn_full:hover{
@@ -194,14 +187,8 @@ a.look{
     color: white;
     font-size: 18px;
     line-height: 25px;
-    padding-left: 125px;
     padding-top: 150px;
     margin-bottom: 30px;
-}
-
-.servis{
-    margin-left: 125px;
-    margin-bottom: 70px;
 }
 
 .servis_name{
@@ -212,13 +199,82 @@ a.look{
 }
 
 .section{
-    height: 1844px;
-    background-color: black;
-    list-style-type: none;
+    margin: 0 auto;
     box-sizing: border-box;
+    padding-left: 125px;
+    height: 1602px;
+    background-color: black;
     margin-block-start: 0px;
     margin-block-end: 0px;
+    margin-top: 90px;
+}
 
+.section-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    column-gap: 11px;
+    row-gap: 85px;
+}
+
+.btn_1{
+    display: block;
+    width: 100%;
+    height: 153px;
+    color: white;
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    text-align: center;
+    text-decoration: none;
+    line-height:  41px;
+    font-size: 30px;
+    line-height: 153px;
+    width: 1150px;
+}
+
+.price1,
+.price2
+{
+    display: block;
+    height: 40px;
+    width: 163px;
+    color: white;
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    line-height:  30px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: -358px;
+    margin-left: 30px;
+}
+
+.price3,
+.price4{
+    display: block;
+    height: 40px;
+    width: 211px;
+    color: white;
+    background-color: #AD1818;
+    border-radius: 5px;
+
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    line-height:  30px;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: -358px;
+    margin-left: 30px;
+
+}
+
+.servis_1{
+    position: relative;
 }
 
 .full_section{
@@ -343,5 +399,4 @@ a.look{
     font-weight: 400;
     text-align: center;
     cursor: pointer;
-
 }
