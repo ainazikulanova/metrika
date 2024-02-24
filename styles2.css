@@ -109,6 +109,13 @@
         line-height:  25px;
         margin-bottom: 11px;
     }
+    .project_1,
+    .project_2,
+    .project_3,
+    .project_4{
+        height: 250px;
+        width: 100%;
+    }
 
     .block{
         margin-bottom: 49px;
